@@ -4,6 +4,7 @@
     --primary-color: #4f46e5;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
+    --dark-hover: #111827;
 }
 
 body {
@@ -138,7 +139,7 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -155,6 +156,26 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/*footer icons*/
+.footer .icon {
+    color: white;
+    padding: 0rem 0.7rem;
+}
+
+.footer li {
+    font-size: 1.5rem;
+}
+
+.footer .icon:hover {
+    color: var(--dark-hover);
+}
+
+.footer .link-footer{
+    color: white;
+    text-decoration: none;
+    /* font-weight: bold; */
 }
 
 /** projects **/
