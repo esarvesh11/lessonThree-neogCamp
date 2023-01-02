@@ -4,142 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-
+    <title>Home | Sarvesh's Portfolio</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>sarvesh's component library </h1>
-    <p><strong>Sarvesh Shirude</strong> is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.</p>
-    <p>This is a component library created by her to better design each element.</p>
-    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all projects</strong> created. This will ensure that all her projects have <strong>consistent themeing and styling</strong></p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>The biggest heading h1</h1>
-    <h2>The second biggest heading h2</h2>
-    <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the width</p>
-    <p class="text-sm">This is relatively smaller text</p>
-
-    <hr>
-    <h2>@containers </h2>
-
-    <h3>@fluid container</h3>
-    <div class="container">
-        This is going to be a fluid container. It will go full width of page. With some margin.
-    </div>
-
-    <h3>@center container</h3>
-    <div class="container container-center">
-        This is going to be a center container. It will go till a given width and center content.
-    </div>
-
-    <hr>
-    <h2>@links</h2>
-
-    <a class="link-primary" href="/"> Primary Link</a>
-    <a class="link-secondary" href="/"> Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered lists</h3>
-
-    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
-
-    <ul class="unordered">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>inline lists</h3>
-
-    <p>Instead of going in a new row, we will create a list which will take columns.</p>
-
-    <ul class="unordered list-inline">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <p>Counting of will go reverse for this list </p>
-    <ol reversed>
-        <li>something</li>
-        <li>something else</li>
-        <li>something elser</li>
-    </ol>
-
-    <hr>
-
-
-    <h2>@nav</h2>
-    <p>Navigation is used on the top of the page and used to get to different pages</p>
-    <nav class="navigation">
-        <div class="container-fluid">
-        <div class="brand">theBrandName</div>
-        <ul>
-            <li>
-                <a href="/" class="active">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/" class="link link-active">Sarvesh Shirude</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">home</a>
                 
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a href="/projects.html" class="link">projects</a>
                 
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a href="/blogs.html" class="link">blogs</a>
             </li>
         </ul>
-        </div>
         
     </nav>
-    <hr>
 
-
-    <h2> @header </h2>
-
-    <header class="container hero">
-        <img src="/images/homepage-image.svg"/>
-        <h1> this is heading h1 inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="/images/homepage-image.svg"/>
+        <h1 class="hero-heading">sarvesh shirude | <span class="heading-inverted">web developer</span></h1>
     </header>
 
-    <hr />
-
-    <h2> @section</h2>
-
-    <p> A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
-    <h3>@normal section</h3>
-    <section class="section">
-        <h2> heading inside section</h2>
-        <p>Text defining this section and many more things</p>
-        <a href="" class="primary-link"> Primary Button</a>
-    </section>
-
-    <h3>@an off white section</h3>
     <section class="section ow">
-        <h2> inside off white section</h2>
-        <p>Text defining this section and many more things</p>
-        <a href="/" class="primary-link"> Primary Button</a>
+        <div class="container container-center">    
+            <h1>Technologies</h2>
+            <p>Vivamus convallis sem at dui tristique egestas. Nam eu sem erat. Nulla cursus quis mauris ut tempus. Vestibulum t</p>
+        </div>
     </section>
 
-    <hr>
-
-    
-    <h2>@footer</h2>
-    <footer class="footer container-fluid">
-        <div class="container">
-            <div class="heading">header inside footer</div>
-            <ul class="unordered list-inline">
-                <li>socialone</li>
-                <li>socialtwo</li>
-                <li>socialthree</li>
-            </ul>
+    <section class="section">
+        <div class="container container-center">    
+            <h1>Projects</h2>
+            <p>Vivamus convallis sem at dui tristique egestas. Nam eu sem erat. Nulla cursus quis mauris ut tempus. Vestibulum t</p>
+            <a class="link link-primary" href="/">Browse Projects</a>
         </div>
-    </footer>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">    
+            <h1>Blogs</h2>
+            <p>Vivamus convallis sem at dui tristique egestas. Nam eu sem erat. Nulla cursus quis mauris ut tempus. Vestibulum t</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Get In Touch 🤝</div>
+        <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">socialOne
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialTwo
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialThree
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">socialFour
+                </a>
+            </li>
+        </ul>
+</footer>
 </body>
 </html>
