@@ -197,6 +197,11 @@ hr {
     padding-bottom: 6rem;
 }
 
+.link-blogs:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
 
 
 
