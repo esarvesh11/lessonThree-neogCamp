@@ -92,6 +92,10 @@ hr {
     color: white;
 }
 
+.navigation .link:hover {
+    color: cyan;
+}
+
 .navigation .link-active {
     font-weight: bold;
 }
@@ -156,6 +160,7 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+    margin-bottom: 3rem;
 }
 
 /*footer icons*/
@@ -175,7 +180,11 @@ hr {
 .footer .link-footer{
     color: white;
     text-decoration: none;
-    /* font-weight: bold; */
+    font-weight: bold;
+}
+
+.footer .link-footer:hover {
+    color: var(--dark-hover);    
 }
 
 /** projects **/
